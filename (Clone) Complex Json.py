@@ -59,4 +59,13 @@ dffinal.write.saveAsTable("complexjson")
 
 # COMMAND ----------
 
+# MAGIC %sql
+# MAGIC select * from complexjson
+
+# COMMAND ----------
+
+df=spark.read.table("complexjson")
+
+# COMMAND ----------
+
 
